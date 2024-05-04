@@ -1,0 +1,210 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    background-image: url(../assets/purpleHeart.jpg);
+    width: 390px;
+    height: 663px;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    background-image: url(../assets/PueblitoPaissa.JPG);
+    height: 140px;
+    width: 230px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-5deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.logo1{
+    background-image: url(../assets/publoPaissalOGO.jpg);
+    height: 45px;
+    width: 140px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 30px;
+    left: 210px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.heart {
+    position: fixed;
+    width: 60px;
+    height: 55px;
+
+    top: 200px;
+    left: 0px;
+    transform: rotate(-15deg);
+
+}
+
+.heart:before, .heart:after {
+    position: absolute;
+    content: "";
+    left: 80px;
+    top: 0;
+    width: 80px;
+    height: 130px;
+    background: rgb(154, 14, 154);
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    
+}
+
+.heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin :100% 100%;
+
+}
+
+.image3{
+    background-image: url(../assets/Black_Always_Stay_Positive_motivational_quote_Canvas_Printing-removebg-preview.png);
+    height: 260px;
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 136px;
+    left: -50px;
+    transform: rotate(-15deg);
+
+}
+
+.logo2{
+    background-image: url(../assets/playaIcon.png);
+    height: 75px;
+    width: 75px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 280px;
+    left: 110px;
+    border: solid rgb(0, 221, 255) 3px;
+    border-radius: 50%;
+}
+
+.image5{
+    background-image: url(../assets/PuertoManos.JPG);
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 220px;
+    left: 170px;
+    transform: rotate(10deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image4{
+    background-image: url(../assets/Casa2.jpg);
+    height: 160px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 350px;
+    left: 20px;
+    transform: rotate(-15deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo3{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/banderas.jpeg);
+    height: 80px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(8deg);
+
+
+    position: fixed;
+    top: 410px;
+    left: 135px;
+}
+
+.image6{
+    background-image: url(../assets/Oliver2.JPG);
+    height: 120px;
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+
+    position: fixed;
+    top: 510px;
+    left: 220px;
+    transform: rotate(5deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.logo4{
+    background-image: url(../assets/pomeranian-removebg-preview.png);
+    height: 120px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 523px;
+    left: 69px;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(224, 224, 224);
+}
+
+.text1{
+    position: fixed;
+    transform: rotate(10deg);
+    top: 200px;
+    left: 200px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    color: black;
+
+}
+
+.text3{
+    position: fixed;
+    transform: rotate(-15deg);
+    top: 490px;
+    left: 50px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.text4{
+    position: fixed;
+    top: 620px;
+    left: 40px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+}

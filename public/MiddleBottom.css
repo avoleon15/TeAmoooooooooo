@@ -1,0 +1,309 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    background-image: url(../assets/background3.jpg);
+    width: 390px;
+    height: 663px;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.image2{
+    background-image: url(../assets/14mayo.JPG);
+    height: 222px;
+    width: 151px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 241px;
+    left: 90px;
+    transform: rotate(-5deg);
+}
+
+.logo1{
+    background-image: url(../assets/marco1-removebg-preview.png);
+    height: 240px;
+    width: 170px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 231px;
+    left: 80px;
+    transform: rotate(-5deg);
+
+}
+
+.image3{
+    background-image: url(../assets/Plus.jpg);
+    height: 130px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    transform: rotate(-15deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.kiss{
+    background-image: url(../assets/kiss.png);
+    height: 30px;
+    width: 45px;
+    background-size: cover;
+    background-position: center;
+}
+
+.kiss1{
+    position: fixed;
+    top: 35px;
+    left: 25px;
+    transform: rotate(25deg);
+}
+
+.kiss2{
+    position: fixed;
+    top: 30px;
+    left: 120px;
+    transform: rotate(-15deg);
+}
+
+.kiss3{
+    position: fixed;
+    top: 120px;
+    left: 140px;
+    transform: rotate(35deg);
+}
+
+.kiss4{
+    position: fixed;
+    top: 170px;
+    left: 10px;
+    transform: rotate(-35deg);
+}
+
+.logo3{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/laSirenita.jpeg);
+    height: 100px;
+    width: 66px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 0px;
+    left: 215px;
+    transform: rotate(-5deg);
+    border: solid 1px blue;
+}
+
+.logo4{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/napoleon.jpg);
+    height: 100px;
+    width: 66px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 15px;
+    left: 305px;
+    transform: rotate(10deg);
+    border: solid 1px red;
+}
+
+.logo5{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/anyoneButYou.png);
+    height: 100px;
+    width: 66px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 180px;
+    left: 315px;
+    transform: rotate(20deg);
+    border: solid 1px lightblue;
+
+}
+
+
+.image4{
+    background-image: url(../assets/Espejo.JPG);
+    height: 130px;
+    width: 110px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 460px;
+    left: 10px;
+    transform: rotate(-10deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.image5{
+    background-image: url(../assets/Cine.JPG);
+    height: 130px;
+    width: 160px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 90px;
+    left: 185px;
+    transform: rotate(10deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.image6{
+    background-image: url(../assets/Plus2.JPG);
+    height: 120px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 320px;
+    left: 290px;
+    transform: rotate(7deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.image7{
+    background-image: url(../assets/Chino.JPG);
+    height: 100px;
+    width: 160px;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+
+    position: fixed;
+    top: 500px;
+    left: 230px;
+    transform: rotate(5deg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.logo6{
+    background-image: url(../assets/chineseNewYear-removebg-preview.png);
+    height: 115px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+
+    position: fixed;
+    top: 515px;
+    left: 110px;
+    border: solid gold 1px;
+    border-radius:10% ;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.text1{
+    position: fixed;
+    transform: rotate(-5deg);
+    top: 360px;
+    left: -1px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    color: gold;
+
+}
+
+.text2{
+    position: fixed;
+    transform: rotate(10deg);
+    top: -15px;
+    left: 325px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.text3{
+    position: fixed;
+    transform: rotate(-10deg);
+    top: 430px;
+    left: 0px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    font-size: 17px;
+}
+
+.text4{
+    position: fixed;
+    top: 620px;
+    left: 80px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+}
+
+.text5{
+    position: fixed;
+    top: 300px;
+    left: 20px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    transform: rotate(-10deg);
+
+}
+
+.text6{
+    position: fixed;
+    top: 230px;
+    left: 30px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    transform: rotate(-20deg);
+
+}
+
+.text7{
+    position: fixed;
+    top: 390px;
+    left: 240px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    transform: rotate(10deg);
+
+}
+
+.text8{
+    position: fixed;
+    top: 320px;
+    left: 240px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+}
+
+.text9{
+    position: fixed;
+    top: 240px;
+    left: 230px;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+}
+
